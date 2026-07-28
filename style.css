@@ -185,4 +185,33 @@ body{
 .course-card li{
     margin:10px 0;
 }
+/* About Section */
+.about{
+    max-width: 900px;
+    margin: 70px auto;
+    padding: 0 20px;
+    text-align: center;
+}
 
+.about-image{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 18px;
+}
+
+.about p{
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.8;
+}
+
+.about-features{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin: 25px 0;
+    }
