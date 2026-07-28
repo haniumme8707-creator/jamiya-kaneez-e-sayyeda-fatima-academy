@@ -42,9 +42,15 @@ Search and access your study materials quickly.
 
 <div class="library-search">
 
-<input type="text" placeholder="🔍 Search Books, Notes, PDFs...">
+<input
+id="searchInput"
+type="text"
+placeholder="🔍 Search Books, Notes, PDFs..."
+onkeyup="searchLibrary()">
 
-<button>Search</button>
+<button onclick="searchLibrary()">
+Search
+</button>
 
 </div>
 
