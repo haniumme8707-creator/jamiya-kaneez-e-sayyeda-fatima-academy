@@ -238,3 +238,51 @@ body{
     text-decoration: none;
     margin: 30px auto 50px;
 }
+/* ===== COURSES SECTION ===== */
+
+.courses{
+    max-width:900px;
+    margin:80px auto;
+    padding:0 20px;
+    text-align:center;
+}
+
+.courses h2{
+    font-size:38px;
+    color:#0f5132;
+    margin-bottom:50px;
+}
+
+.course-category{
+    background:#fff;
+    border-radius:20px;
+    padding:25px;
+    margin:40px auto;
+    max-width:500px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.course-category:hover{
+    transform:translateY(-6px);
+}
+
+.course-category img{
+    width:100%;
+    max-width:380px;
+    border-radius:15px;
+    display:block;
+    margin:0 auto 20px;
+}
+
+.course-category h3{
+    color:#0f5132;
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+.course-category p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:25px;
+}
