@@ -250,7 +250,8 @@ body{
     margin-bottom:25px;
 }
 .btn{
-    display: inline-block;
+    display:block;
+    width:fit-content; 
     background: #d4af37;
     color: white;
     padding: 15px 35px;
