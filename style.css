@@ -356,3 +356,53 @@ body{
     font-size:15px;
     font-weight:500;
 }
+/* ===== HELP SECTION ===== */
+
+.help-section{
+    max-width:700px;
+    margin:60px auto;
+    padding:40px 25px;
+    background:#ffffff;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.help-section h2{
+    color:#0f5132;
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+.help-section p{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+.admission-note{
+    color:#0f5132;
+    font-weight:600;
+    margin:35px 0 20px;
+    font-size:18px;
+}
+.course-details h3{
+    color:#d4af37;
+    margin-top:35px;
+    margin-bottom:20px;
+    font-size:24px;
+}
+.breadcrumb{
+    margin:25px 0;
+    color:#777;
+    font-size:15px;
+}
+
+.breadcrumb a{
+    color:#0f5132;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.breadcrumb a:hover{
+    color:#d4af37;
+}
