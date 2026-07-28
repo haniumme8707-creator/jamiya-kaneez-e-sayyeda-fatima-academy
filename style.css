@@ -215,3 +215,37 @@ body{
     align-items: center;
     margin: 25px 0;
     }
+.about h2{
+    font-size: 36px;
+    color: #0f5132;
+    margin-bottom: 20px;
+}
+
+.about h3{
+    font-size: 28px;
+    color: #222;
+    margin: 20px 0 15px;
+}
+
+.about p{
+    max-width: 700px;
+    margin: 15px auto;
+    padding: 0 15px;
+    line-height: 1.9;
+    font-size: 17px;
+    color: #555;
+}
+
+.about-features span{
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0f5132;
+    }
+.about-tagline{
+    font-size:18px;
+    color:#777;
+    font-style:italic;
+    margin-bottom:25px;
+}
